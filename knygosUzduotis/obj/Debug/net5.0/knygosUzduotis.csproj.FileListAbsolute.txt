@@ -1,0 +1,15 @@
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/bin/Debug/net5.0/knygosUzduotis.deps.json
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/bin/Debug/net5.0/knygosUzduotis.runtimeconfig.json
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/bin/Debug/net5.0/knygosUzduotis.runtimeconfig.dev.json
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/bin/Debug/net5.0/knygosUzduotis.dll
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/bin/Debug/net5.0/ref/knygosUzduotis.dll
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/bin/Debug/net5.0/knygosUzduotis.pdb
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.csproj.AssemblyReference.cache
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.AssemblyInfoInputs.cache
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.AssemblyInfo.cs
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.csproj.CoreCompileInputs.cache
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.dll
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/ref/knygosUzduotis.dll
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.pdb
+/Users/rasamikuleviciene/Desktop/mano/C#/knygosUzduotis/knygosUzduotis/obj/Debug/net5.0/knygosUzduotis.genruntimeconfig.cache
