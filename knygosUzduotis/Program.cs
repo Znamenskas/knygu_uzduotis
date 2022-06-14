@@ -15,7 +15,20 @@ namespace knygosUzduotis
             //Knygos knygos = new Knygos("95 - 6351 - 575 - 7", "El Sanción Creyente", "Turner Sandoval Loya", 1944," Línea Editorial","Chile", 56.8m);
 
             //Console.WriteLine(knygos.ToString());
-               NuskaitytiKnygosIsFailo();
+            NuskaitytiKnygosIsFailo();
+
+            List<Knygos> knygosList = new List<Knygos>();
+
+            knygosList = NuskaitytiKnygosIsFailo();
+            Console.WriteLine("-------------");
+
+            IsvestiVisasKnygas(knygosList);
+
+
+
+                
+
+               
         }
 
         static List<Knygos> NuskaitytiKnygosIsFailo()
@@ -43,13 +56,13 @@ namespace knygosUzduotis
 
             Knygos knygos = new Knygos();
 
-            Console.WriteLine(stulpeliai[0]);
-            Console.WriteLine(stulpeliai[1]);
-            Console.WriteLine(stulpeliai[2]);
-            Console.WriteLine(stulpeliai[3]);
-            Console.WriteLine(stulpeliai[4]);
-            Console.WriteLine(stulpeliai[5]);
-            Console.WriteLine(stulpeliai[6]);
+            //Console.WriteLine(stulpeliai[0]);
+            //Console.WriteLine(stulpeliai[1]);
+            //Console.WriteLine(stulpeliai[2]);
+            //Console.WriteLine(stulpeliai[3]);
+            //Console.WriteLine(stulpeliai[4]);
+            //Console.WriteLine(stulpeliai[5]);
+            //Console.WriteLine(stulpeliai[6]);
 
             knygos.Isbn =  stulpeliai[0];
             knygos.Pavdinimas = stulpeliai[1];
@@ -61,5 +74,14 @@ namespace knygosUzduotis
 
             return knygos;
         }
+        static void IsvestiVisasKnygas(List<Knygos> knygosList)
+        {
+            foreach (Knygos knyga in knygosList)
+            {
+                Console.WriteLine(knyga);
+            }
+        }
+
+
     }
 }
