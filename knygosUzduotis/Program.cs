@@ -23,12 +23,10 @@ namespace knygosUzduotis
             Console.WriteLine("-------------");
 
             IsvestiVisasKnygas(knygosList);
+            Console.WriteLine("----------------");
 
 
-
-                
-
-               
+            IsvestiTikKnyguPavadinimus(knygosList);
         }
 
         static List<Knygos> NuskaitytiKnygosIsFailo()
@@ -79,6 +77,16 @@ namespace knygosUzduotis
             foreach (Knygos knyga in knygosList)
             {
                 Console.WriteLine(knyga);
+            }
+        }
+        /// <summary>
+        /// Funkcija kuri isveda visu klasiu tik knygu pavadinimus.
+        /// </summary>
+        static void IsvestiTikKnyguPavadinimus(List<Knygos> knygosList )
+        {
+            foreach (Knygos knyga in knygosList)
+            {
+                Console.WriteLine(knyga.Pavdinimas);
             }
         }
 
