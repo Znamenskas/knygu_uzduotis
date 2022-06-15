@@ -27,10 +27,14 @@ namespace knygosUzduotis
 
 
             IsvestiTikKnyguPavadinimus(knygosList);
-            Console.WriteLine("-------------------");
+            Console.WriteLine("Knugu pavadinimai");
 
             Console.WriteLine("Knygu kainu suma: ");
             Console.WriteLine(KnyguSuma(knygosList));
+            Console.WriteLine("--------------------");
+
+            Console.WriteLine("Knygu kainu vidurkis");
+            Console.WriteLine(KnyguKainuVidurkis(knygosList));
             
 
         }
@@ -108,5 +112,15 @@ namespace knygosUzduotis
             }
             return knyguSuma;
         }
+        ///<summary>
+        /// Funkcija kuri aoskaiciuoja knygu kainu vidurki
+        /// </summary>
+        static double KnyguKainuVidurkis(List<Knygos> knygos)
+        {
+            double knyguVidukis;
+            knyguVidukis = (double)KnyguSuma(knygos) / knygos.Count;
+            return knyguVidukis;
+        }
+        
     }
 }
