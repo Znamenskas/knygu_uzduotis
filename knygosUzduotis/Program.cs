@@ -27,6 +27,12 @@ namespace knygosUzduotis
 
 
             IsvestiTikKnyguPavadinimus(knygosList);
+            Console.WriteLine("-------------------");
+
+            Console.WriteLine("Knygu kainu suma: ");
+            Console.WriteLine(KnyguSuma(knygosList));
+            
+
         }
 
         static List<Knygos> NuskaitytiKnygosIsFailo()
@@ -89,7 +95,18 @@ namespace knygosUzduotis
                 Console.WriteLine(knyga.Pavdinimas);
             }
         }
+        /// <summary>
+        /// Sukuriu papyldoma funkcija, kuri apskaiciuoja ir returnina knygu kainos suma.
+        /// </summary>
 
-
+        static decimal KnyguSuma(List<Knygos> knygos)
+        {
+            decimal knyguSuma = 0;
+            foreach (Knygos knyga in knygos)
+            {
+                knyguSuma += knyga.Kaina;
+            }
+            return knyguSuma;
+        }
     }
 }
