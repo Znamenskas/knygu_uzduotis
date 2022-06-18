@@ -121,6 +121,18 @@ namespace knygosUzduotis
             knyguVidukis = (double)KnyguSuma(knygos) / knygos.Count;
             return knyguVidukis;
         }
-        
+        /// <summary>
+        /// Sukuriu funkcija seniausiai isleista knyga
+        /// </summary>
+
+        static void SeniausiaKnyga(List<Knygos> knygos)
+        {
+            int seniausiaKnyga = 0;
+            foreach (Knygos knyga in knygos)
+            {
+                seniausiaKnyga += knygos.
+            }
+
+        }
     }
 }
