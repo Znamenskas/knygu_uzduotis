@@ -35,6 +35,11 @@ namespace knygosUzduotis
 
             Console.WriteLine("Knygu kainu vidurkis");
             Console.WriteLine(KnyguKainuVidurkis(knygosList));
+            Console.WriteLine("-----------------------");
+
+            Console.WriteLine("Seniausia knyga:");
+            Knygos seniausiaKnyga = RastiSeniausiaKnyga(knygosList);
+            Console.WriteLine(seniausiaKnyga);
             
 
         }
@@ -125,13 +130,19 @@ namespace knygosUzduotis
         /// Sukuriu funkcija seniausiai isleista knyga
         /// </summary>
 
-        static void SeniausiaKnyga(List<Knygos> knygos)
+        static Knygos RastiSeniausiaKnyga(List<Knygos> knygos)
         {
-            int seniausiaKnyga = 0;
+            Knygos seniausiaKnyga = knygos[0];
             foreach (Knygos knyga in knygos)
             {
-                seniausiaKnyga += knygos.
+                if (knyga.LeidimoMetai < seniausiaKnyga.LeidimoMetai)
+                {
+                    seniausiaKnyga = knyga;
+                }
             }
+            return seniausiaKnyga;
+            
+
 
         }
     }
